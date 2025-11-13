@@ -1,18 +1,18 @@
 body {
-    background-color: black;
+    background-color: white;
     font-family: Helvetica Now Text;
     color: yellow;
 }
 
-h1 {
+h2 {
     text-align: center;
-    color: aqua;
+    color: white;
 }
 
 p {
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .meineKlasse {
@@ -29,3 +29,28 @@ img {
     height: 220px
 }
 
+.myDiv {
+    border: 1px outset rgb(130, 10, 10);
+    background-color: rgb(128, 14, 14);    
+    text-align: center;
+    width:300px;
+    margin:0 auto;
+    padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+  .tennisimage {
+ 
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container{
+    display: flex;
+    gap: 20px
+  }
+
+  .textabschnitt {
+    width: 300px;
+  }
